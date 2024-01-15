@@ -128,8 +128,6 @@
                 "type": "select",
                 "options": [
                     "Landing",
-                    "Highlight",
-                    "Magazine",
                     "Search",
                     "Off"
                 ],
