@@ -14,7 +14,7 @@
     <div class="gh-header-inner gh-inner">
 
         {{!-- Highlight layout --}}
-        {{#match headerStyle "Highlight"}}
+        {{!-- {{#match headerStyle "Highlight"}} --}}
             <div class="gh-header-left">
                 <h1>Renforcez Votre Présence en Ligne<br>Création Site Web, SEO, Hébergement, tout en un lieu.</h1>
             </div>
@@ -23,19 +23,19 @@
             <div class="gh-header-right">
                 <img src="/assets/images/Mejri_Media.png"/>
             </div>
-        {{/match}}
+        {{!-- {{/match}} --}}
 
 
 
         {{!-- Search layout --}}
-        {{#match headerStyle "Search"}}
+        {{!-- {{#match headerStyle "Search"}}
             {{!-- <h1 class="gh-header-title is-title">{{#if @custom.header_text}}{{@custom.header_text}}{{else}}{{@site.title}}{{/if}}</h1> --}}
             <h1>{{@site.description}}</h1>
             <form class="gh-form">
                 {{> "icons/search"}}
                 <button class="gh-form-input" data-ghost-search>Search posts, tags and authors</button>
             </form>
-        {{/match}}
+        {{/match}} --}}
 
     </div>
 
