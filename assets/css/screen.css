@@ -3344,7 +3344,9 @@ figcaption a {
     align-items: center;
     padding: 80px 20px; /* Ajustez le padding en fonction de vos besoins */
     background-color: #351253; /* Couleur de fond */
+    background-image: linear-gradient(225deg, #88024e 0%, #351253 50%, #034b7e 100%);
     color: #fff; /* Couleur du texte */
+    text-align: left;
   }
   
   /* Style du texte */
@@ -3363,7 +3365,7 @@ figcaption a {
   .hero-title {
     font-size: 2.5em; /* Ajustez la taille de la police en fonction de vos préférences */
     margin-bottom: 20px; /* Ajustez la marge en fonction de vos besoins */
-    color: #88024e; /* Couleur du titre */
+    color: #fff; /* Couleur du titre */
   }
   
   /* Style du sous-titre */
