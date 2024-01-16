@@ -1,45 +1,14 @@
-<section class=" header-background gh-header is-{{#match headerStyle "Magazine"}}magazine{{else match headerStyle "Highlight"}}highlight{{else}}classic{{/match}}{{#if @custom.background_image}}{{#if @site.cover_image}} has-image{{/if}}{{/if}} gh-outer">
-        
-    {{!-- Background image --}}
-    {{#if @custom.background_image}}
-        {{#match headerStyle "!=" "Magazine"}}
-        {{#match headerStyle "!=" "Highlight"}}
-            {{#if @site.cover_image}}
-                <img class="gh-header-image" src="{{@site.cover_image}}" alt="{{@site.title}}">
-            {{/if}}
-        {{/match}}
-        {{/match}}
-    {{/if}}
-
-    <div class="gh-header-inner gh-inner">
-
-        {{!-- Highlight layout --}}
-        {{!-- {{#match headerStyle "Highlight"}} --}}
-            <div class="gh-header-left">
-                <h1>Renforcez Votre Présence en Ligne.</h1>
-                <p>Création Site Web, SEO, Hébergement,
-                    tout en un lieu!
-                </p>
-            </div>
-            <div class="gh-header-middle">
-            </div>
-            <div class="gh-header-right">
-                <img src="/assets/images/Mejri_Media.png"/>
-            </div>
-        {{!-- {{/match}} --}}
-
-
-
-        {{!-- Search layout --}}
-        {{!-- {{#match headerStyle "Search"}}
-            <h1 class="gh-header-title is-title">{{#if @custom.header_text}}{{@custom.header_text}}{{else}}{{@site.title}}{{/if}}</h1>
-            <h1>{{@site.description}}</h1>
-            <form class="gh-form">
-                {{> "icons/search"}}
-                <button class="gh-form-input" data-ghost-search>Search posts, tags and authors</button>
-            </form>
-        {{/match}} --}}
-
+</section>
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1 class="hero-title">MejriMedia.fr - Expert en Création de Sites Web, SEO Performant et Hébergement Simplifié</h1>
+            <p class="hero-subtitle">Votre Partenaire Numérique pour Maximiser la Visibilité en Ligne et la Performance Web.</p>
+            <p class="hero-main-text">Optimisez votre présence en ligne avec MejriMedia.fr. En tant qu'experts en création de sites web, nous vous offrons des solutions performantes, un SEO avancé et une gestion d'hébergement simplifiée. Concentrez-vous sur votre entreprise tandis que nous boostons votre visibilité sur les moteurs de recherche et garantissons des performances web exceptionnelles. Simplifiez, Optimisez, Réussissez - découvrez comment nous faisons la différence.</p>
+            <a href="#" class="hero-cta">Découvrez nos Services</a>
+        </div>
+        <div class="hero-image">
+            <img src="chemin/vers/votre-image.jpg" alt="Description de l'image">
+        </div>
     </div>
 
 </section>

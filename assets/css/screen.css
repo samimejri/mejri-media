@@ -1434,11 +1434,6 @@ Search                         LOGO                    Login Subscribe
     background-color: #fff;
 }
 
-.header-background {
-    background-color: #38027e;
-    background-image: linear-gradient(225deg, #88024e 0%, #351253 50%, #034b7e 100%);
-}
-
 /* 9. CTA
 /* ---------------------------------------------------------- */
 
@@ -3331,4 +3326,78 @@ figcaption a {
 
 .pswp--minimal--dark .pswp__top-bar {
     background: none;
+}
+
+
+/* My Custom styles */
+
+
+.header-background {
+    background-color: #38027e;
+    background-image: linear-gradient(225deg, #88024e 0%, #351253 50%, #034b7e 100%);
+}
+
+/* Style général de la section héros */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px; /* Ajustez le padding en fonction de vos besoins */
+    background-color: #351253; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+  }
+  
+  /* Style du texte */
+  .hero-text {
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  /* Style de l'image */
+  .hero-image {
+    width: 100%;
+    margin-top: 20px; /* Marge entre le texte et l'image */
+  }
+  
+  /* Style du titre */
+  .hero-title {
+    font-size: 2.5em; /* Ajustez la taille de la police en fonction de vos préférences */
+    margin-bottom: 20px; /* Ajustez la marge en fonction de vos besoins */
+    color: #88024e; /* Couleur du titre */
+  }
+  
+  /* Style du sous-titre */
+  .hero-subtitle {
+    font-size: 1.2em; /* Ajustez la taille de la police en fonction de vos préférences */
+    margin-bottom: 30px; /* Ajustez la marge en fonction de vos besoins */
+  }
+  
+  /* Style du texte principal */
+  .hero-main-text {
+    font-size: 1em; /* Ajustez la taille de la police en fonction de vos préférences */
+    margin-bottom: 40px; /* Ajustez la marge en fonction de vos besoins */
+  }
+  
+  /* Style du bouton CTA */
+  .hero-cta {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #034b7e; /* Couleur de fond du bouton CTA */
+    color: #fff; /* Couleur du texte du bouton CTA */
+    border-radius: 5px; /* Ajustez le rayon du bord en fonction de vos besoins */
+  }
+  
+  /* Style de l'image */
+  .hero-image img {
+    width: 100%;
+    border-radius: 5px; /* Ajustez le rayon du bord en fonction de vos besoins */
+  }
+  
+  /* Styles spécifiques pour les tablettes et les mobiles */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 60px 20px; /* Ajustez le padding pour les tablettes et les mobiles */
+    }
 }
