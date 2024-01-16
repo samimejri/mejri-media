@@ -3401,5 +3401,6 @@ figcaption a {
   @media (max-width: 768px) {
     .hero-section {
       padding: 60px 20px; /* Ajustez le padding pour les tablettes et les mobiles */
+      grid-template-columns: (6fr, 4fr);
     }
 }
