@@ -3338,7 +3338,6 @@ figcaption a {
 }
 
 .hero-section {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 80px 20px;
@@ -3366,12 +3365,14 @@ figcaption a {
   
   .hero-subtitle {
     font-size: 1.2em;
-    margin-bottom: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;    
   }
   
   .hero-main-text {
     font-size: 1em;
     margin-bottom: 40px;
+    font-weight: lighter;
   }
   
   .hero-cta {
@@ -3379,7 +3380,7 @@ figcaption a {
     padding: 15px 30px;
     font-size: 1.2em;
     text-decoration: none;
-    background-color: #034b7e;
+    background-color: #88024e;
     color: #fff;
     border-radius: 5px;
   }
@@ -3390,7 +3391,7 @@ figcaption a {
   
   @media (min-width: 768px) {
     .hero-section {
-      padding: 60px 20px;
-      grid-template-columns: (6fr, 4fr);
+      padding: 50px;
+      grid-template-columns: 6fr 4fr;
     }
 }
