@@ -3346,6 +3346,7 @@ figcaption a {
     background-image: linear-gradient(225deg, #88024e 0%, #351253 50%, #034b7e 100%);
     color: #fff;
     text-align: left;
+    display: grid;
   }
   
   .hero-text {
