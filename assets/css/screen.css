@@ -3346,59 +3346,60 @@ figcaption a {
     color: #fff;
     text-align: left;
     display: grid;
-  }
-  
-  .hero-text {
+}
+
+.hero-text {
     text-align: left;
     padding: 50px;
-  }
-  
-  .hero-image {
+}
+
+.hero-image {
     width: 100%;
     margin-top: 20px;
     align-content: center;
-  }
-  
-  .hero-image img {
+}
+
+.hero-image img {
     border-radius: 5px;
     margin: auto;
-  }
-  
-  .hero-title {
-    font-size: 2.5em; 
-    margin-bottom: 20px; 
-    color: #fff; 
-  }
-  
-  .hero-subtitle {
+}
+
+.hero-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero-subtitle {
     font-size: 1.2em;
     font-weight: bold;
-    margin-bottom: 30px;    
-  }
-  
-  .hero-main-text {
+    margin-bottom: 30px;
+}
+
+.hero-main-text {
     font-size: 1em;
     margin-bottom: 40px;
     font-weight: lighter;
-  }
-  
+}
+
 .hero-cta {
     display: flex;
     justify-content: center;
 }
-  .hero-cta a{
-    display: inline-block;
-    padding: 12px 30px;
-    font-size: 1.2em;
-    text-decoration: none;
-    background-color: #88024e;
-    color: #fff;
-    /* border-radius: 5px; */
-  }
-  
+
+    .hero-cta a {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 1.2em;
+        text-decoration: none;
+        background-color: #88024e;
+        color: #fff;
+        /* border-radius: 5px; */
+    }
+
 @media (min-width: 900px) {
     .hero-section {
-        padding: 50px;
+        padding: 50px 50px 0px 50px;
         grid-template-columns: 6fr 4fr;
     }
 }
