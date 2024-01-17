@@ -3350,11 +3350,13 @@ figcaption a {
   
   .hero-text {
     text-align: left;
+    padding: 50px;
   }
   
   .hero-image {
     width: 100%;
     margin-top: 20px;
+    align-content: center;
   }
   
   .hero-title {
@@ -3384,12 +3386,12 @@ figcaption a {
     color: #fff;
     border-radius: 5px;
   }
-  
+
   .hero-image img {
     border-radius: 5px;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     .hero-section {
       padding: 50px;
       grid-template-columns: 6fr 4fr;
