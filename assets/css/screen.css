@@ -3355,7 +3355,7 @@ body{
 }
 
 .hero-image {
-    width: 100%;
+    width: 70%;
     margin-top: 20px;
     align-content: center;
 }
@@ -3410,6 +3410,6 @@ body{
     }
     
     .hero-image img {
-        width: 80px;
+        width: 100%;
     }
 }
