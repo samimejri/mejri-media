@@ -3408,4 +3408,8 @@ body{
         padding: 50px 50px 0px 50px;
         grid-template-columns: 6fr 4fr;
     }
+    
+    .hero-image img {
+        width: 80px;
+    }
 }
