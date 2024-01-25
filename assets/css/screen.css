@@ -3413,8 +3413,16 @@ figcaption a {
     display: block;
 }
 
+.section-title {
+    margin-bottom: 30px;
+}
+
+.card-title{
+    margin-bottom: 20px;
+}
+
 .guarantie {
-    margin: 20px;
+    padding-block: 10px;
 }
 
 @media (min-width: 900px) {
@@ -3444,6 +3452,6 @@ figcaption a {
         margin-inline: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 50px;
+        gap: 75px;
     }
 }
