@@ -3404,6 +3404,19 @@ figcaption a {
     border-image: linear-gradient(225deg, #88024e 0%, #351253 50%, #034b7e 100%);
 }
 
+.guaranties-section {
+    display: block;
+    padding: 50px;
+}
+
+.guaranties-grid {
+    display: block;
+}
+
+.guarantie {
+    margin: 20px;
+}
+
 @media (min-width: 900px) {
     .hero-content {
         max-width: 1400px;
@@ -3420,13 +3433,17 @@ figcaption a {
     .hero-image {
         width: 100%;
     }
-}
 
+    .guaranties-section {
+        max-width: 1400px;
+        padding: 80px;
+        margin: auto;
+    }
 
-
-#shape1:hover,
-#shape2:hover,
-#shape3:hover,
-#shape4:hover {
-    transform: Translate(100px), scale(1.1);
+    .guaranties-grid {
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+    }
 }

@@ -3,6 +3,8 @@
 
 {{> "components/header" headerStyle=@custom.header_style}}
 
+{{> "components/guaranties"}}
+
 {{#match @custom.header_style "!=" "Highlight"}}
     {{> "components/featured" showFeatured=@custom.show_featured_posts limit=4}}
 {{/match}}
