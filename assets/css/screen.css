@@ -3401,11 +3401,11 @@ figcaption a {
     color: #fff;
 }
 
-.guaranties-section {
+.section {
     display: block;
 }
 
-.guaranties-content {
+.content {
     margin: 50px;
     display: block;
 }
@@ -3420,6 +3420,20 @@ figcaption a {
 
 .guarantie {
     padding-block: 10px;
+}
+
+.cta {
+    margin-block: 50px;
+    margin-inline: auto;
+    display: flex;
+}
+
+.cta a {
+    padding: 10px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #88024e;
+    color: #fff;
 }
 
 @media (min-width: 900px) {
@@ -3439,11 +3453,7 @@ figcaption a {
         width: 100%;
     }
 
-    .guaranties-section {
-        margin: auto;
-    }
-
-    .guaranties-content {
+    .content {
         margin: 80px;
         display: block;
         max-width: 1400px;
