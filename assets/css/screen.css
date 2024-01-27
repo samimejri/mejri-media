@@ -3402,12 +3402,14 @@ figcaption a {
 }
 
 .section {
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 .content {
     margin: 50px;
     display: block;
+    width: 100%;
 }
 
 .section-title {
@@ -3434,6 +3436,14 @@ figcaption a {
     text-decoration: none;
     background-color: #88024e;
     color: #fff;
+}
+
+.odd-section{
+    background-color: #3512532d;
+}
+
+.rights {
+    margin: 20px;
 }
 
 @media (min-width: 900px) {
