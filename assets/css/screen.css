@@ -3344,10 +3344,10 @@ figcaption a {
     margin: 50px;
     display: grid;
     grid-template-areas: "title"
-        "subtitle"
-        "image"
-        "description"
-        "cta";
+                        "subtitle"
+                        "image"
+                        "description"
+                        "cta";
     row-gap: 10px;
 }
 
@@ -3382,8 +3382,8 @@ figcaption a {
 
 .hero-main-text {
     font-size: 1em;
-    font-weight: lighter;
-    grid-area: description;
+    font-weight: light;
+    grid-area: subtitle;
 }
 
 .hero-cta {
@@ -3453,10 +3453,9 @@ figcaption a {
         max-width: 1400px;
         grid-template-areas:
             "title image"
-            "subtitle image"
-            "description image"
             "cta  image";
-        margin: 80px;
+        margin-inline: 80px;
+        margin-block: 80px 0px;
         column-gap: 50px;
         row-gap: 10px;
     }
