@@ -3387,6 +3387,7 @@ figcaption a {
 }
 
 .hero-cta {
+    margin-block: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3421,7 +3422,7 @@ figcaption a {
 }
 
 .guarantie {
-    margin: 20px;
+    margin-block: 20px;
     padding-inline: 20px;
     padding-block: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -3476,23 +3477,26 @@ figcaption a {
     .content {
         margin: 80px;
         display: block;
-        max-width: 1400px;
+        max-width: 1600px;
     }
 
     .guaranties-grid {
-        overflow-x: scroll;
         margin-inline: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
     }
 }
 
 .card-image {
+    text-align: center;
     margin: 10px;
 }
 
 .performance {
     margin-top: 20px;
+    margin-inline: auto;
+    max-width: fit-content;
     display: flex;
     flex-flow: wrap;
 }
@@ -3501,18 +3505,20 @@ figcaption a {
     display: block;
     justify-items: center;
     text-align: center;
-    width: 120px;
+    width: 110px;
     margin-inline: auto;
 }
 
 .performance-metric {
+    font-family: Consolas, monaco, monospace;
     border: #0c6 solid 4px;
     border-radius: 100%;
     width: 55px;
     height: 55px;
     font-weight: bold;
     color: #0c6;
-    margin: auto;
+    margin-inline: auto;
+    margin-bottom: 10px;
     display: flex;
 }
 
