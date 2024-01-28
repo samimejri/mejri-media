@@ -3344,10 +3344,10 @@ figcaption a {
     margin: 50px;
     display: grid;
     grid-template-areas: "title"
-                        "subtitle"
-                        "image"
-                        "description"
-                        "cta";
+        "subtitle"
+        "image"
+        "description"
+        "cta";
     row-gap: 10px;
 }
 
@@ -3427,11 +3427,11 @@ figcaption a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.guarantie p{
+.guarantie p {
     margin-bottom: 20px;
 }
 
-.guarantie img{
+.guarantie img {
     margin-inline: auto;
 }
 
@@ -3449,7 +3449,7 @@ figcaption a {
     color: #fff;
 }
 
-.odd-section{
+.odd-section {
     background-color: #3512532d;
 }
 
@@ -3457,7 +3457,7 @@ figcaption a {
     margin: 20px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
     .hero-content {
         max-width: 1400px;
         grid-template-areas:
@@ -3480,8 +3480,45 @@ figcaption a {
     }
 
     .guaranties-grid {
+        overflow-x: scroll;
         margin-inline: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
+
+.card-image {
+    margin: 10px;
+}
+
+.performance {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.performance-item {
+    display: block;
+    justify-items: center;
+    text-align: center;
+    width: 120px;
+    margin-inline: auto;
+}
+
+.performance-metric {
+    border: #0c6 solid 4px;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    font-weight: bold;
+    color: #0c6;
+    margin: auto;
+    display: flex;
+}
+
+.performance-metric p {
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+
 }
