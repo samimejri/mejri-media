@@ -3598,3 +3598,27 @@ p.growth {
     margin-inline: auto;
     margin-bottom: 20px;
 }
+
+.confidentialite {    
+    font-family: Consolas, monaco, monospace;
+    max-width: 1000px;
+}
+
+.confidentialite h2{
+    margin-bottom: 50px;
+}
+
+.confidentialite h3{    
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.confidentialite a{    
+    color: #5e35b1;
+}
+
+.footer-text {
+    font-size: smaller;
+    margin-inline: auto;
+    text-align: center;
+}
