@@ -3343,16 +3343,18 @@ figcaption a {
 .hero-content {
     margin: 50px;
     display: grid;
-    grid-template-areas: "title"
+    grid-template-areas:
+        "title"
         "subtitle"
-        "image"
         "description"
+        "image"
         "cta";
     row-gap: 10px;
 }
 
 .hero-text {
     text-align: left;
+    margin-block: auto;
 }
 
 .hero-image {
@@ -3383,10 +3385,10 @@ figcaption a {
 .hero-main-text {
     font-size: 1em;
     font-weight: light;
-    grid-area: subtitle;
+    grid-area: description;
 }
 
-.hero-cta {
+/* .hero-cta {
     margin-block: 20px;
     display: flex;
     justify-content: center;
@@ -3400,7 +3402,7 @@ figcaption a {
     text-decoration: none;
     background-color: #88024e;
     color: #fff;
-}
+} */
 
 .section {
     display: flex;
@@ -3462,10 +3464,10 @@ figcaption a {
     .hero-content {
         max-width: 1400px;
         grid-template-areas:
-            "title image"
-            "cta  image";
-        margin-inline: 80px;
-        margin-block: 80px 0px;
+            "text image";
+        grid-auto-rows: auto;
+        grid-template-rows: auto auto auto;
+        margin: 80px;
         column-gap: 50px;
         row-gap: 10px;
     }
@@ -3526,5 +3528,73 @@ figcaption a {
     margin: auto;
     justify-self: center;
     align-self: center;
+}
 
+.seo {
+    margin-top: 20px;
+    margin-inline: auto;
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px;
+}
+
+.seo-item {
+    text-align: center;
+    margin-inline: auto;
+    width: 110px;
+    color: #fff;
+    padding-block: 20px;
+}
+
+.seo-item:nth-child(1) {
+    background-color: #4285f4;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.seo-item:nth-child(2) {
+    background-color: #5e35b1;
+}
+
+.seo-item:nth-child(3) {
+    background-color: #26a69a;
+}
+
+.seo-item:nth-child(4) {
+    background-color: #e8710a;
+    border-radius: 0% 20% 20% 0%;
+}
+
+p.growth {
+    font-weight: bold;
+    font-size: 2.5rem;
+    transform: rotate(-90deg);
+    margin: 0;
+}
+
+.easy p {
+    font-size: 90px;
+    margin: 0%;
+}
+
+.technology-list {
+    margin-block: 50px;
+    margin-inline: auto;
+    display: flex;
+    flex-flow: wrap;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology-item {
+    width: 150px;
+    margin-block: 30px;
+    margin-inline: 20px;
+    text-align: center;
+}
+
+.technology-item img {
+    width: 140px;
+    margin-inline: auto;
+    margin-bottom: 20px;
 }
