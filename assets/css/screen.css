@@ -3589,12 +3589,12 @@ p.growth {
 .technology-item {
     width: 150px;
     margin-block: 30px;
-    margin-inline: 20px;
+    margin-inline: 30px;
     text-align: center;
 }
 
 .technology-item img {
-    width: 140px;
+    width: 120px;
     margin-inline: auto;
     margin-bottom: 20px;
 }
