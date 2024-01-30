@@ -3413,6 +3413,7 @@ figcaption a {
     margin: 50px;
     display: block;
     width: 100%;
+    overflow: hidden;
 }
 
 .section-title {
@@ -3432,6 +3433,7 @@ figcaption a {
 
 .guarantie p {
     margin-bottom: 20px;
+    font-size: small;
 }
 
 .guarantie img {
@@ -3533,15 +3535,16 @@ figcaption a {
 .seo {
     margin-top: 20px;
     margin-inline: auto;
-    max-width: fit-content;
     display: grid;
-    grid-template-columns: 110px 110px 110px 110px;
+    max-width: max-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: small;
 }
 
 .seo-item {
     text-align: center;
     margin-inline: auto;
-    width: 110px;
+    min-width: 80px;
     color: #fff;
     padding-block: 20px;
 }
@@ -3561,7 +3564,7 @@ figcaption a {
 
 .seo-item:nth-child(4) {
     background-color: #e8710a;
-    border-radius: 0% 20% 20% 0%;
+    border-radius: 0px 20px 20px 0px;
 }
 
 p.growth {
