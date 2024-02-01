@@ -3602,21 +3602,21 @@ p.growth {
     margin-bottom: 20px;
 }
 
-.confidentialite {    
+.confidentialite {
     font-family: Consolas, monaco, monospace;
     max-width: 1000px;
 }
 
-.confidentialite h2{
+.confidentialite h2 {
     margin-bottom: 50px;
 }
 
-.confidentialite h3{    
+.confidentialite h3 {
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
-.confidentialite a{    
+.confidentialite a {
     color: #5e35b1;
 }
 
@@ -3624,4 +3624,75 @@ p.growth {
     font-size: smaller;
     margin-inline: auto;
     text-align: center;
+}
+
+.fixed-cta {
+    position: fixed;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    z-index: 9999;
+    text-align: center;
+    background-color: #0005;
+    border-radius: 100%;
+    transition: all 200ms ease-in 0ms;
+}
+
+.fixed-mail {
+    bottom: 20px;
+}
+
+.fixed-calendar {
+    bottom: 100px;
+}
+
+p.fixed-mail-text {
+    display: none;
+    position: fixed;
+    bottom: 35px;
+    right: 100px;
+    opacity: 0;
+}
+
+p.fixed-calendar-text {
+    display: none;
+    position: fixed;
+    bottom: 115px;
+    right: 100px;
+    opacity: 0;
+}
+
+.fixed-cta:hover,.fixed-cta:focus {
+    transform: scale(1.1);
+}
+
+.fixed-cta:hover path, .fixed-cta:focus path {
+    stroke: #fff;
+}
+
+.fixed-mail:hover+p.fixed-mail-text {
+    display: block;
+    opacity: 1;
+    animation: fadeIn 200ms;
+}
+
+.fixed-calendar:hover+p.fixed-calendar-text {
+    display: block;
+    opacity: 1;
+    animation: fadeIn 200ms;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fixed-cta path {
+    stroke: lightgrey;
 }
