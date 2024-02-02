@@ -3567,6 +3567,10 @@ figcaption a {
     border-radius: 0px 20px 20px 0px;
 }
 
+.seo-item p{
+    text-shadow: #000 0px 0 2px;
+}
+
 p.growth {
     font-weight: bold;
     font-size: 2.5rem;
