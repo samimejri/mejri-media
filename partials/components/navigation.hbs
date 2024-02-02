@@ -16,23 +16,23 @@
             </button>
         </div>
 
-        <nav class="gh-navigation-menu">
+        {{!-- <nav class="gh-navigation-menu">
             {{navigation}}
             {{#unless @site.members_enabled}}
                 {{#match navigationLayout "Stacked"}}
                     {{> "search-toggle"}}
                 {{/match}}
             {{/unless}}
-        </nav>
+        </nav> --}}
 
-        <div class="gh-navigation-actions">
+        {{!-- <div class="gh-navigation-actions">
             {{#unless @site.members_enabled}}
                 {{^match navigationLayout "Stacked"}}
                     {{> "search-toggle"}}
                 {{/match}}
             {{else}}
                 {{> "search-toggle"}}
-                {{!-- <div class="gh-navigation-members">
+                <div class="gh-navigation-members">
                     {{#unless @member}}
                         {{#unless @site.members_invite_only}}
                             <a href="#/portal/signin" data-portal="signin">Sign in</a>
@@ -45,9 +45,9 @@
                     {{else}}
                         <a class="gh-button" href="#/portal/account" data-portal="account">Account</a>
                     {{/unless}}
-                </div> --}}
+                </div>
             {{/unless}}
-        </div>
+        </div> --}}
 
     </div>
 </header>
