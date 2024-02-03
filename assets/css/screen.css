@@ -3420,10 +3420,6 @@ figcaption a {
     margin-bottom: 30px;
 }
 
-.card-title {
-    margin-bottom: 20px;
-}
-
 .guarantie {
     margin-block: 20px;
     padding-inline: 20px;
@@ -3699,4 +3695,22 @@ p.fixed-calendar-text {
 
 .fixed-cta path {
     stroke: lightgrey;
+}
+
+.service{
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+.service-icon{
+    width: 30px;
+}
+
+.service-icon path{
+    fill: #fff;
+}
+
+.service-title {
+    margin-block: auto;
 }
