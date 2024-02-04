@@ -3359,6 +3359,7 @@ figcaption a {
 
 .hero-image {
     margin-inline: auto;
+    max-width: 400px;
     grid-area: image;
 }
 
