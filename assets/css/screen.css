@@ -3635,7 +3635,7 @@ p.growth {
     padding: 10px;
     z-index: 9999;
     text-align: center;
-    background-color: #0005;
+    background-color: #00000088 ;
     border-radius: 100%;
     transition: all 200ms ease-in 0ms;
 }
@@ -3666,6 +3666,7 @@ p.fixed-calendar-text {
 
 .fixed-cta:hover,.fixed-cta:focus {
     transform: scale(1.1);
+    box-shadow: 0 0 20px 15px #88024e;
 }
 
 .fixed-cta:hover path, .fixed-cta:focus path {
